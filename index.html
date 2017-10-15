@@ -72,57 +72,12 @@ $(function() {
 <div class="textblock"><h2>Introduction: </h2>
 <p>This project is a first of my new one-day-build mini-projects serie. It is my take on implementing a simple version of the Genetic Algorithm using C++, with a demo use case consisting of fitting a gaussian distribution to a data histogram.</p>
 <p><br />
- <br />
- </p><h2>General Code Description: </h2>
-<p>This code has been developed and tested on a machine running ubuntu 17.04, but should work on any linux distribution with gcc instaled.</p>
-<h3>Getting the code:</h3>
-<p>This code is available on GitHub at: <br />
-<a href="https://github.com/remizaidan/GeneticAlgorithm">https://github.com/remizaidan/GeneticAlgorithm </a></p>
-<p>To download from the command-line: <br />
-</p><blockquote class="doxtable">
-<p>git clone <a href="https://github.com/remizaidan/GeneticAlgorithm">https://github.com/remizaidan/GeneticAlgorithm</a> </p>
-</blockquote>
-<h3>Dependencies:</h3>
-<ul>
-<li>ROOT Data Analysis Framework (tested with version 6.10). Documentation and download are avaiable here: <br />
-<a href="https://root.cern.ch">https://root.cern.ch</a></li>
-</ul>
-<h3>Code structure:</h3>
-<p>The code is structured into the following sub-directories:</p><ul>
-<li><b>include</b> Contains all header files.</li>
-<li><b>src</b> Contains all source files that are to be compiled into static libraries.</li>
-<li><b>utils</b> Contains all source files that are to be compiled into executables.</li>
-<li><b>doc</b> Contains documentation files.</li>
-</ul>
-<p>After comiling, the following directories may be created:</p><ul>
-<li><b>bin</b> Contains all executables.</li>
-<li><b>lib</b> Contains project libraries (shared or static).</li>
-<li><b>.objs</b> Contains static libraries corresponding to source files in the src folder.</li>
-<li><b>.deps</b> Contains dependency files.</li>
-</ul>
-<h3>Compiling and Running the demo</h3>
-<p>Compile the demo (replace &lt;N&gt; with the number of cores on your machine): </p><blockquote class="doxtable">
-<p>make -j&lt;N&gt; </p>
-</blockquote>
-<p>Run the demo: </p><blockquote class="doxtable">
-<p>./bin/runGA.exe [options] </p>
-</blockquote>
-<p>For the list of available options see <a class="el" href="group__runGA.html#gabd905500a8df21c0d76cf6cdfb331a3d">runGA::parseCommandLine</a> or run: </p><blockquote class="doxtable">
-<p>./bin/runGA.exe -h </p>
-</blockquote>
-<h3>Other compiling options:</h3>
-<p>Compile into a shared library: </p><blockquote class="doxtable">
-<p>make -j&lt;N&gt; shared </p>
-</blockquote>
-<p>Compile into a static library: </p><blockquote class="doxtable">
-<p>make -j&lt;N&gt; static </p>
-</blockquote>
-<p>Generate the doxygen documentation: </p><blockquote class="doxtable">
-<p>make doc </p>
-</blockquote>
+</p>
+<h2>General Code Description: </h2>
+<p>For a description of the code and compiling/running instructions, see <a class="el" href="md_README.html">Genetic Algorithm README</a>.</p>
 <p><br />
- <br />
- </p><h2>Algorithms Description: </h2>
+</p>
+<h2>Algorithms Description: </h2>
 <p>The genetic algorithm consist of finding the best set of paramters for a given model using the following concepts (shamelessly stolen from the work of our mother nature over the last several billions of years):</p><ul>
 <li><b>Population:</b> the genetic algorithm takes as input a population where each individual is a different instance of a configurable model and evolve it into a population of individuals that best represent the solution to a given problem.</li>
 <li><b>Variability:</b> variation is at the center of the genetic algorithms: if we have only a handfull of ways to configure our model, the room for optimization towards a best solution would be limited. The configurations of the initial population are randomly chosen to allow the exploration of the full phase space of configurations.</li>
@@ -131,7 +86,6 @@ $(function() {
 </ul>
 <p>The genetic algorithm repeats the selection, cross-over and mutations steps until the best fitted individual reach a certain fitness threshold.</p>
 <p><br />
- <br />
  </p><h2>Implementation details: </h2>
 <h3>The demo case:</h3>
 <p>The demo case generates pseudo-random data following a gaussian distribution and uses the genetic algorithm to guess the parameters of the gaussian from the data. The results are then compared with a likelihood fitting method as implemented in the ROOT library.</p>
@@ -188,7 +142,8 @@ $(function() {
 </ul>
 </li>
 </ul>
-<h2>Results: </h2>
+<p><br />
+ </p><h2>Results: </h2>
 <p>An example output of the demo looks like this:</p>
 <div class="fragment"><div class="line">Algorithm Configuration:</div><div class="line">  ==&gt; nmc = 10000</div><div class="line">  ==&gt; acceptThreshold = 0.85</div><div class="line">  ==&gt; mutateRate = 0.01</div><div class="line">  ==&gt; mutateSize = 0.1</div><div class="line">  ==&gt; maxGenerations = 10000</div><div class="line">  ==&gt; populationSize = 500</div><div class="line">Input parameters:</div><div class="line">  ==&gt; Constant : 0.173453  - range: [0.001, 1]</div><div class="line">  ==&gt; Mean : 1.5  - range: [-10, 10]</div><div class="line">  ==&gt; Sigma : 2.3  - range: [0.001, 10]</div><div class="line">Done after 27 generations.</div><div class="line">  ==&gt; Best score is: 0.830388</div><div class="line">After GA fit: </div><div class="line">  ==&gt; Constant : 0.173211</div><div class="line">  ==&gt; Mean : 1.50147</div><div class="line">  ==&gt; Sigma : 2.30937</div><div class="line">After Likelihood fit: </div><div class="line">  ==&gt; Constant : 0.173272</div><div class="line">  ==&gt; Mean : 1.50329</div><div class="line">  ==&gt; Sigma : 2.28956</div></div><!-- fragment --><a class="anchor" id="Fig1"></a>
 <table class="image" align="center">

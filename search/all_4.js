@@ -10,5 +10,5 @@ var searchData=
   ['getscoremean',['getScoreMean',['../classIPopulation.html#adfb17f9e5214af7ebacde34bb61e5941',1,'IPopulation']]],
   ['getscorerms',['getScoreRMS',['../classIPopulation.html#a02315eb8388302bcb7e7a3f772e5d4c3',1,'IPopulation']]],
   ['genetic_20algorithm',['Genetic Algorithm',['../index.html',1,'']]],
-  ['genetic_20algorithm',['Genetic Algorithm',['../md_README.html',1,'']]]
+  ['genetic_20algorithm_20readme',['Genetic Algorithm README',['../md_README.html',1,'']]]
 ];
