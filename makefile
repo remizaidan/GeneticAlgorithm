@@ -113,7 +113,7 @@ DOXYDIR = $(DOCDIR)/doxygen
 DOXYCFG = $(DOXYDIR)/doxygen.cfg
 
 DOXYINPUT =
-DOXYINPUT += $(PWD)/README.md
+DOXYINPUT += $(PWD)/$(DOCDIR)
 DOXYINPUT += $(PWD)/macros
 DOXYINPUT += $(PWD)/$(UTILSDIR)
 DOXYINPUT += $(PWD)/$(SRCDIR)
@@ -140,6 +140,7 @@ doxygen :
 	@sed -i "/^STRIP_CODE_COMMENTS /c\STRIP_CODE_COMMENTS = NO" $(DOXYCFG)
 	@sed -i "/^USE_MATHJAX /c\USE_MATHJAX = YES" $(DOXYCFG)
 	doxygen $(DOXYCFG)
+	@cp -r $(DOCDIR)/figures $(DOXYDIR)/html/figures
 
 .SECONDARY : $(OBJS) $(EXECOBJS)
 
