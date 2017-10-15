@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['m_5facceptthreshold',['m_acceptThreshold',['../classIFigureOfMerit.html#a6467e53a883b0138d20277fce34e09ae',1,'IFigureOfMerit']]],
+  ['m_5fcurrentgeneration',['m_currentGeneration',['../classGeneticAlgorithm.html#a335f3746ef7539a6535c8d725d22106c',1,'GeneticAlgorithm']]],
+  ['m_5fey',['m_ey',['../classChi2FitFigureOfMerit.html#a6835770c467e24971273f6fdd513913e',1,'Chi2FitFigureOfMerit']]],
+  ['m_5ffom',['m_fom',['../classIPopulation.html#a8165f85ea5a8108d5e14076f1c2c20bc',1,'IPopulation']]],
+  ['m_5fformula',['m_formula',['../classParametricModel.html#a643568b4a5ba8775f97a51a1a11cb9ae',1,'ParametricModel::m_formula()'],['../classParametricModelPopulation.html#ac4a3b120b8193c0b920ee8080ed5bcc3',1,'ParametricModelPopulation::m_formula()']]],
+  ['m_5fgenerationsmax',['m_generationsMax',['../classGeneticAlgorithm.html#ad1d5cfa5b6bea53b653f39e7ae4b2776',1,'GeneticAlgorithm']]],
+  ['m_5findividuals',['m_individuals',['../classIPopulation.html#a2530452cd26baad1cd814bdea1c98c81',1,'IPopulation']]],
+  ['m_5fmutaterate',['m_mutateRate',['../classIPopulation.html#a190b8fd662c11c5fd0c1bcc540d99c70',1,'IPopulation']]],
+  ['m_5fmutationsize',['m_mutationSize',['../classParametricModelPopulation.html#a1c467de5ad4f51361c2d852bbb7033ec',1,'ParametricModelPopulation']]],
+  ['m_5fparents',['m_parents',['../classIPopulation.html#adc78049d7b82610e8683b3021c0d7256',1,'IPopulation']]],
+  ['m_5fpopulation',['m_population',['../classGeneticAlgorithm.html#ac13d9ae28519f385948a7a826a3ec347',1,'GeneticAlgorithm']]],
+  ['m_5fpopulationsize',['m_populationSize',['../classGeneticAlgorithm.html#a34e5ec789a9a45cf812dac6846349a3c',1,'GeneticAlgorithm']]],
+  ['m_5frandom',['m_random',['../classIPopulation.html#aefda6c4e32ac6130bd5cb550799ab0f7',1,'IPopulation']]],
+  ['m_5fscore',['m_score',['../classIModel.html#ae5c48baa52edf7fbc6b7a915c94d0a43',1,'IModel']]],
+  ['m_5fscoremean',['m_scoreMean',['../classIPopulation.html#a501a0b9ffe79a22578925e249fa4b34e',1,'IPopulation']]],
+  ['m_5fscorerms',['m_scoreRMS',['../classIPopulation.html#a69b80ff71a4455d15ce5f74ebcf737ef',1,'IPopulation']]],
+  ['m_5fsorted',['m_sorted',['../classIPopulation.html#acbff06c7d7a20e2d634f9c0c38bacc77',1,'IPopulation']]],
+  ['m_5fx',['m_x',['../classChi2FitFigureOfMerit.html#a20d871e6940e44f70cd7328addb09ce7',1,'Chi2FitFigureOfMerit']]],
+  ['m_5fy',['m_y',['../classChi2FitFigureOfMerit.html#aa7eddbfefbfe4cddfee8da5c36e7c434',1,'Chi2FitFigureOfMerit']]],
+  ['main',['main',['../group__runGA.html#ga3c04138a5bfe5d72780bb7e82a18e627',1,'runGA.cxx']]],
+  ['mutate',['mutate',['../classIPopulation.html#a3ea27e1d19a1421ebb731cabf432c27c',1,'IPopulation']]],
+  ['macro_20testparentselection',['Macro testParentSelection',['../group__testParentSelection.html',1,'']]]
+];
