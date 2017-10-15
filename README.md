@@ -1,5 +1,5 @@
-Genetic Algorithm
-=================
+Genetic Algorithm README
+========================
 
 Introduction:
 -------------
@@ -7,7 +7,6 @@ Introduction:
 This project is a first of my new one-day-build mini-projects serie.
 It is my take on implementing a simple version of the Genetic Algorithm using C++,
 with a demo use case consisting of fitting a gaussian distribution to a data histogram. 
-
 
 
 General Code Description:
