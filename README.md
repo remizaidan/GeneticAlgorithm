@@ -27,7 +27,7 @@ To download from the command-line: <br>
 
 
 ### Dependencies:
-- ROOT Data Analysis Framework (tested with version 6.10). Documentation and download are avaiable here: \n
+- ROOT Data Analysis Framework (tested with version 6.10). Documentation and download are avaiable here: <br>
 <a href="https://root.cern.ch">https://root.cern.ch</a>
 
 

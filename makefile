@@ -120,7 +120,6 @@ DOXYINPUT += $(PWD)/$(UTILSDIR)
 DOXYINPUT += $(PWD)/$(SRCDIR)
 DOXYINPUT += $(PWD)/$(INCLUDEDIR)
 
-
 # documentation
 doxygen : 
 	@mkdir -p $(DOXYDIR)
