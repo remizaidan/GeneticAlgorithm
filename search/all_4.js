@@ -9,5 +9,6 @@ var searchData=
   ['getscore',['getScore',['../classIModel.html#a1bd0dfc1fb97197a1dfb84e3e58cbaa5',1,'IModel']]],
   ['getscoremean',['getScoreMean',['../classIPopulation.html#adfb17f9e5214af7ebacde34bb61e5941',1,'IPopulation']]],
   ['getscorerms',['getScoreRMS',['../classIPopulation.html#a02315eb8388302bcb7e7a3f772e5d4c3',1,'IPopulation']]],
-  ['genetic_20algorithm',['Genetic Algorithm',['../index.html',1,'']]]
+  ['genetic_20algorithm',['Genetic Algorithm',['../index.html',1,'']]],
+  ['genetic_20algorithm',['Genetic Algorithm',['../md_README.html',1,'']]]
 ];
